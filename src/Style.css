@@ -147,3 +147,34 @@
         text-align: justify;
     }
 }
+@media(max-width:320px){
+    .input-search {
+        width: 100%;
+    }
+    .input-search input{
+        width: 90%;
+    }
+    .card-content{
+        width: 100%;
+        height: 100%;
+    }
+    .title-clima{
+        font-size: 30px;
+        width: 100%;
+    }
+    .content-info{
+        height: auto;
+    }
+    .group{
+        background: none;
+        width: 25%;
+    }
+    .group h1, p{
+        background: none;
+    }
+    .error{
+        width: 80%;
+        height: auto;
+        text-align: justify;
+    }
+}
